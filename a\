@@ -1,0 +1,53 @@
+[33mcommit 0da384d771bffea8dd61a143e51e7f4bb475806c[m[33m ([m[1;36mHEAD -> [m[1;32mprimary[m[33m, [m[1;31morigin/primary[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: srl23 <srl23ga@gmail.com>
+Date:   Sat Jun 19 23:14:29 2021 -0400
+
+    apartments now purchasable and add to income
+
+[33mcommit f46a201601242477bd095435e8f7b70d0863345c[m
+Author: srl23 <srl23ga@gmail.com>
+Date:   Fri Jun 18 15:05:16 2021 -0400
+
+    purchasing things now works and adds to income
+
+[33mcommit 1ecc77db92846446f89dcec1bff1faab7af5f7e8[m
+Author: srl23 <srl23ga@gmail.com>
+Date:   Thu Jun 17 22:03:07 2021 -0400
+
+    great googly moogly it works
+
+[33mcommit 419fe4832eca44e9857a299611b46f10d062bf02[m
+Author: srl23 <srl23ga@gmail.com>
+Date:   Thu Jun 17 22:00:34 2021 -0400
+
+    I can't find what's wrong with the DOM manipulation, I've consulted several guides and I am no closer to the answer
+
+[33mcommit 79f3f4712ff2dc8843812c48556890431e5cdeaf[m
+Author: srl23 <srl23ga@gmail.com>
+Date:   Thu Jun 17 20:44:26 2021 -0400
+
+    bit of flavot text added to the HTML
+
+[33mcommit e9f5c014f2900d27744328f1db3fcc2750741cea[m
+Author: srl23 <srl23ga@gmail.com>
+Date:   Wed Jun 16 19:33:59 2021 -0400
+
+    more initializations
+
+[33mcommit 888573d6fe3db124b69a9e0f1bcacddb1cf91f2d[m
+Author: srl23 <srl23ga@gmail.com>
+Date:   Wed Jun 16 19:24:53 2021 -0400
+
+    base template index made
+
+[33mcommit 3c03f1ef04c82815f2b73179d734a272fc229814[m
+Author: srl23 <srl23ga@gmail.com>
+Date:   Wed Jun 16 19:22:50 2021 -0400
+
+    initialized files, will template
+
+[33mcommit d328bd968c966b8bc75475348513337c27551a0d[m
+Author: srl23 <59884987+srl23@users.noreply.github.com>
+Date:   Wed Jun 16 19:18:13 2021 -0400
+
+    Initial commit
