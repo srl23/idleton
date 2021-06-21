@@ -2,7 +2,7 @@ let showCount = document.getElementById("counter");
 
 let houseCount = document.getElementById("houses-owned");
 let apartmentCount = document.getElementById("apartments-owned");
-let condoCount = document.getElementById("condo-count");
+let condoCount = document.getElementById("condos-owned");
 
 let money = 0;
 let income = 1;
