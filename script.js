@@ -3,6 +3,8 @@ let showCount = document.getElementById("counter");
 let houseCount = document.getElementById("houses-owned");
 let apartmentCount = document.getElementById("apartments-owned");
 let condoCount = document.getElementById("condos-owned");
+let storefrontCount = document.getElementById("storefronts-owned");
+let officeSpaceCount = document.getElementById("officespace-owned");
 
 let money = 0;
 let income = 1;
@@ -10,10 +12,14 @@ let income = 1;
 let houseValue = 1;
 let apartmentValue = 5;
 let condoValue = 10;
+let storefrontValue = 25;
+let officeSpaceValue = 50;
 
 let house = 0;
 let apartment = 0;
 let condo = 0;
+let storefront = 0;
+let officeSpace = 0;
 
 function countUp() {
     money += income;
@@ -56,6 +62,32 @@ function buyCondo() {
         updateViews();
     } else {
         //nothing here boss
+    }
+}
+
+function buyStoreFront() {
+    if(money >= 500) {
+        money -= 500;
+        income += storefrontValue;
+        storefront++;
+        console.log(storefront);
+        storefrontCount.innerHTML = "Storefronts: " + storefront;
+        updateViews();
+    } else {
+        //nope nothing. are you reading these?
+    }
+}
+
+function buyOfficeSpace() {
+    if(money >= 1000) {
+        money -= 1000;
+        income += officeSpaceValue;
+        officeSpace++;
+        console.log(officeSpace);
+        officeSpaceCount.innerHTML = "Office Space: " + officeSpace;
+        updateViews();
+    } else {
+        //nothing here but comments
     }
 }
 
