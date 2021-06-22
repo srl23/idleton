@@ -26,10 +26,10 @@ export class IdletonMap {
 
     render(time: number) {
         this.canvas.clearRect(0, 0, this.canvas.canvas.width, this.canvas.canvas.height);
-        for (let row of this.map) {
-            for (let building of row) {
-                building?.render(time)
-            }
-        }
+        this.map.forEach((row, x) => {
+            row.forEach((building, y) => {
+                building?.render(time, x, y, this.canvas.canvas.width / this.x_size, this.canvas.canvas.height / this.y_size)
+            });
+        });
     }
 }

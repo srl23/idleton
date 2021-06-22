@@ -5,5 +5,5 @@ export interface Building {
     canvas: CanvasRenderingContext2D;
     name(): string;
     update(time_diff: number): null;
-    render(time: number): null;
+    render(time: number, x,y, width, height): null;
 }
